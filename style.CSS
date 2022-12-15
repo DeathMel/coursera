@@ -1,0 +1,81 @@
+h1 {
+	text-align: center;
+    font-style: bold;
+}
+div {
+	color: black;
+    background-color: grey;
+    width:33.33%;
+    height:300px;
+    border: solid black;
+    float: left;
+    font-size: 30px;
+    padding: 0px 2px 0px 2px;
+}
+p {
+	border: solid black;
+	font-family: sans-serif;
+	float: right;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+section {
+	clear: right;
+}
+.white {
+	color: white;
+}
+* {
+	box-sizing:border-box;
+}
+@media (max-width:767px)  {
+    div {
+        color:black;
+        font-style: bold;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    div {
+        color:black;
+        font-style: bold;
+    }
+}
+@media (min-width:992px) {
+    div {
+        color:black;
+        font-style: bold;
+    }
+#div1 {
+    background-color: grey;
+    margin: 30px 25px 30px 25px;
+    padding: 5px;
+}
+#div2 {
+	background-color: grey;
+	margin: 30px 25px 30px 25px;
+	padding: 5px;
+}
+#div3 {
+	background-color: grey;
+	margin: 30px 25px 30px 25px;
+	padding: 5px;
+}
+#p1 {
+	background-color: lightpink;
+	width: 25%;
+	height: 45px;
+	margin: 0px 0px 5px 5px;
+}
+#p2 {
+	background-color: darkred;
+	width: 25%;
+	height: 45px;
+	margin: 0px 0px 0px 5px 5px;
+}
+#p3 {
+	background-color: lightyellow;
+	width: 25%;
+	height: 45px;
+	margin: 0px 0px 0px 5px 5px;
+}
